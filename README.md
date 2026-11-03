@@ -29,12 +29,19 @@
 
 Ex: GET /product/:id : this retrieves details for product ID = 456
 
+
+'''json
 {
+
     "productID": 456, 
+
     "name": "Wireless headphones",
-    "descreption": "Noise cancelling headphones"
+
+    "descreption": "Noise cancelling headphones",
+
     "price": 149.99
 }
+'''
 
 
 ### Databases
@@ -56,16 +63,19 @@ Two Main Options
 - Colomns: the attributes of the table
 - rows: single records inside the table
 
-
+'''sql
 CREATE TABLE costumers (
     id INTEGER PRIMARY KEY, 
     name VARCHAR(100)
     age INTEGER,
     email VARCHAR(100)
 )
+'''
 
+'''sql
 INSERT INTO costumers (id, name, age, integer)
 VALUES (123, "Perla", 24, perlaha@gmail.com)
+'''
 
 #### Advantages of relational databases
 
